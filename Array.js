@@ -43,7 +43,7 @@ console.log(arr2);//[ 1, 2 ,'hi' ]
 movie=["RRR","pushpa","Hunuman","Davara","Salara"]
 hero=["NTR","Ramcharan","AlluArjun","Prabas","Nani"]
 director=["rgv",["Puri Jagannadh","Krishna Vamsi",],"Ragamouli","Trivikram Srinivas","Sekhar Kammula","Koratala Siva"]
-//console.log(movie.push(hero))//push add second array as an element in first array
+console.log(movie.push(hero))//push add second array as an element in first array
 /*[
     'RRR',
     'pushpa',
@@ -51,7 +51,7 @@ director=["rgv",["Puri Jagannadh","Krishna Vamsi",],"Ragamouli","Trivikram Srini
     'Davara',
     'Salara',
     [ 'NTR', 'Ramcharan', 'AlluArjun', 'Prabas', 'Nani' ],]*/
-//console.log(movie.concat(hero))//concatenates two arrays
+console.log(movie.concat(hero))//concatenates two arrays
 // since concat will form a new array .so, its space complexcity is high
 /*[
     'RRR',       'pushpa',
