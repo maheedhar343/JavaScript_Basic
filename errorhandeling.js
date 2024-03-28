@@ -1,4 +1,4 @@
-//structure of error handling
+// // structure of error handling
 function dosomething() {
 	throw new Error(
 		'a error is thrown from dosomething');
@@ -59,3 +59,24 @@ fs.readFile('app.txt','utf-8',(err,data)=>{
     console.log(data);
     // input=data;
 })
+
+//osModule
+
+const os = require(`os`);
+console.log(os.platform());//Win32
+console.log(os.type());//Windows_NT
+console.log(os.version());
+console.log(os.totalmem());//It gives the total memory in your system
+console.log(os.freemem());//it gives the free space in your system
+console.log(os.cpus())//It will show how many cpu are there in your system
+console.log(os.arch());//It will give you the architecture of your machine like x
+
+//http module
+const http =require('http');
+const server = http.createServer((req,res)=> {
+    res.write('Hello World!');
+    res.end();
+});
+server.listen(5000);
+console.log('the server is running at port 5000');
+    
