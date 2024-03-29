@@ -1,7 +1,7 @@
 # road map
 ### JavaScript  as a programming Language 
 
-![image](https://static.frontendmasters.com/assets/courses/2023-01-12-background-javascript/thumb.webp)
+![image] (https://static.frontendmasters.com/assets/courses/2023-01-12-background-javascript/thumb.webp)
 
 
 ### 1.Basic.js
